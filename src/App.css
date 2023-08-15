@@ -1,3 +1,7 @@
+body {
+  background-color: #f0e6ff;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +40,67 @@
     transform: rotate(360deg);
   }
 }
+
+.button-color-1 {
+  background-color: #6a5acd;
+  border: none;
+}
+
+.button-color-1:hover {
+  background-color: #5900b3;
+}
+
+.button-color-return {
+  background-color: #ffffff;
+  color: #ff6600;
+  border: 1px solid #ff6600;
+}
+
+.button-color-return:hover {
+  background-color: #ff6600;
+  border: 1px solid #ff6600;
+}
+
+.button-color-again {
+  background-color: #ff6600;
+  border: none;
+}
+
+.button-color-again:hover {
+  background-color: #cc5200;
+}
+
+.container {
+  background-color: #ffffff;
+  margin-top: 5%;
+  padding: 3px;
+  height: 80vh;
+  border-radius: 9px;
+}
+
+.genie-title b {
+  color: #5900b3;
+  font-size: 40px;
+  animation: text 3s 1;
+}
+
+@keyframes text {
+
+	0% {
+		color: #5900b3;
+		margin-bottom: -40px;
+	}
+
+	30% {
+		letter-spacing: 25px;
+		margin-bottom: -40px;
+	}
+
+	85% {
+		letter-spacing: 8px;
+		margin-bottom: -40px;
+	}
+
+}
+
+
